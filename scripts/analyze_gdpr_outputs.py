@@ -58,12 +58,16 @@ REQUIRED_PRINCIPLES = [
 ]
 
 # ========== FILE PARSING FUNCTIONS ==========
-def parse_filename(filename):
-    """Extract strategy, version, model, mode from filename"""
-    name = Path(filename).stem.lower()
+def parse_filename(filepath):
+    """Extract strategy, version, model, variant from filepath"""
+    path = Path(filepath)
+    name = path.stem.lower()
+    parts = [p.lower() for p in path.parts]
     
     # Strategy
-    if "zero" in name: strategy = "Zero-Shot"
+    if "zero_shot" in parts: strategy = "Zero-Shot"
+    elif "few_shot" in parts: strategy = "Few-Shot"
+    elif "zero" in name: strategy = "Zero-Shot"
     elif "few" in name: strategy = "Few-Shot"
     else: strategy = "Other"
     
@@ -74,15 +78,23 @@ def parse_filename(filename):
     elif "3rd" in name: version = "3rd"
     
     # Model
-    if "grok" in name: model = "Grok"
+    if "grok" in parts: model = "Grok"
+    elif "gpt5.2" in parts: model = "GPT-5.2"
+    elif "grok" in name: model = "Grok"
     elif "gpt5" in name or "gpt-5" in name: model = "GPT-5"
     else: model = "Unknown"
+
+    # Variant
+    variant = "Base"
+    if "expert" in name: variant = "Expert"
+    elif "extended_thinking" in name: variant = "Extended Thinking"
     
     return {
-        "Filename": filename,
+        "Filename": path.name,
         "Strategy": strategy,
         "Version": version, 
         "Model": model,
+        "Variant": variant
     }
 
 def normalize_text(text):
@@ -194,7 +206,7 @@ def analyze_json_file(file_path):
     if raw_data is None:
         return []
 
-    metadata = parse_filename(file_path.name)
+    metadata = parse_filename(file_path)
     rows = []
     
     # Handle different JSON structures
@@ -281,15 +293,19 @@ def analyze_json_file(file_path):
 
 # ========== MAIN ==========
 def main():
-    folder_path = Path.home() / "Desktop" / "output"
-    output_file = folder_path / "GDPR_Thesis_Analysis_Results.xlsx"
+    script_dir = Path(__file__).parent
+    folder_path = (script_dir / ".." / "main_outputs").resolve()
+    
+    output_dir = script_dir / "outputs"
+    output_dir.mkdir(exist_ok=True)
+    output_file = output_dir / "GDPR_thesis_analysis_results.xlsx"
     
     if not folder_path.exists():
         print(f"❌ Folder not found: {folder_path}")
         return
 
     print(f"🚀 Scanning {folder_path}...")
-    files = list(folder_path.glob("*.json"))
+    files = list(folder_path.rglob("*.json"))
     
     all_rows = []
     
