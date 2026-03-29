@@ -1,0 +1,475 @@
+{
+    "analysis": [
+        {
+            "principle": "Lawfulness, fairness and transparency",
+            "article_5_text": "Personal data shall be: (a) processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’).",
+            "recital_39_reference": "Recital 39 explains that processing should be lawful and fair, and transparent to the data subject, and that information should be provided in a concise, easily accessible form using clear and plain language.",
+            "relevant_clauses": [
+                {
+                    "section": "Intro",
+                    "text": "“PLEASE READ THIS POLICY CAREFULLY BEFORE USING ADA HEALTH GMBH SERVICES.”"
+                },
+                {
+                    "section": "Intro",
+                    "text": "“You must be 16 years or older to use our Services.”"
+                },
+                {
+                    "section": "What this Privacy Policy covers",
+                    "text": "“This privacy policy … sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed.”"
+                },
+                {
+                    "section": "What this Privacy Policy covers",
+                    "text": "“Please read this Privacy Policy carefully to understand the types of data we collect from you, how we use it, the circumstances under which we will share it with third parties, and your rights in relation to your personal data.”"
+                },
+                {
+                    "section": "Ada's service",
+                    "text": "“This Privacy Policy describes our data processing when using the App, Ada Assess, the Website … (together with the ‘Services’). Where certain processing activities relate only to a specific product this will be clearly indicated.”"
+                },
+                {
+                    "section": "Automated decision-making",
+                    "text": "“When using Ada’s Services, you are not subject to a decision that is based solely on automated processing … (automated decision-making, Art. 22 GDPR).”"
+                },
+                {
+                    "section": "Automated decision-making",
+                    "text": "“No data will be shared with any third party without your specific consent.”"
+                },
+                {
+                    "section": "1",
+                    "text": "“Ada Health GmbH … Neue Grünstraße 17, 10179 Berlin, Germany being the data controller (as defined under Article 4(7) GDPR) of all processing activities in connection with the Services.”"
+                },
+                {
+                    "section": "1",
+                    "text": "“Our data protection officer can be contacted at [dpo@ada.com](mailto:dpo@ada.com).”"
+                },
+                {
+                    "section": "2",
+                    "text": "“Before starting using our Services, you should read our Privacy Policy carefully.”"
+                },
+                {
+                    "section": "2",
+                    "text": "“In order to use our Symptom Assessment and other health related features, you have to consent to Ada analyzing the personal health data you voluntarily share…”"
+                },
+                {
+                    "section": "2",
+                    "text": "“Information that you provide to us … The information that we may ask you to provide includes … symptoms of your illness … medical history … any allergies you have…”"
+                },
+                {
+                    "section": "2",
+                    "text": "“Information we collect about you: although we will not use it to identify you, we may collect … Usage data … Analytics data…”"
+                },
+                {
+                    "section": "3 (general structure)",
+                    "text": "Section 3 repeatedly uses a structured format: “Types of data”, “Purpose of processing”, “Use justification”, “Storage duration” for each activity."
+                },
+                {
+                    "section": "5",
+                    "text": "“Please contact us if you would like further details on the specific safeguards applied to the export of your personal data outside the EEA.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“Ada does not share your data for third-party commercial interests without your explicit consent.”"
+                },
+                {
+                    "section": "8",
+                    "text": "“Under GDPR you have various rights in relation to your personal data … All of these rights can be exercised by contacting us…”"
+                },
+                {
+                    "section": "8",
+                    "text": "“The supervisory authority responsible for us is the Berlin Data Protection Authority …”"
+                },
+                {
+                    "section": "10",
+                    "text": "“Any changes we make to our Privacy Policy in the future will be posted on this page, and where appropriate, notified to you…”"
+                }
+            ],
+            "rating": "Partially compliant",
+            "justification": "The policy provides substantial transparency by identifying the controller and DPO, describing data categories, purposes, legal bases, recipients, storage periods, and data subject rights in relatively structured terms (policy wording), which aligns with Article 5(1)(a)’s transparency and Recital 39’s requirement for accessible, clear information. It also addresses automated decision-making and cross-border processing at a high level. However, several passages use broad or conditional phrasing (e.g., multiple legal bases in one line, “might be processed”, “as long as necessary”) and some disclosures rely on external links (“can be found here”), reducing the immediacy and clarity that Recital 39 expects for plain, directly understandable information."
+        },
+        {
+            "principle": "Purpose limitation",
+            "article_5_text": "Personal data shall be: (b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’).",
+            "recital_39_reference": "Recital 39 clarifies that personal data should be collected for specified, explicit and legitimate purposes and that those purposes should be determined at the time of collection.",
+            "relevant_clauses": [
+                {
+                    "section": "Ada's service",
+                    "text": "“This Privacy Policy describes our data processing … Where certain processing activities relate only to a specific product this will be clearly indicated.”"
+                },
+                {
+                    "section": "3.1",
+                    "text": "“Purpose of processing: We use the above data to provide you with access to our Services… analyze the system security and stability, as well as for additional administrative purposes.”"
+                },
+                {
+                    "section": "3.2a",
+                    "text": "“Purpose of processing: We use the above data to provide you with a user account and access to our App. We use the general health data for the basic analysis.”"
+                },
+                {
+                    "section": "3.2b",
+                    "text": "“Purpose of processing: … enable the use of Ada Assess … facilitate the exchange of data between Ada and the business partner … optional or mandatory sharing … Where this is the case, we will explicitly inform you in advance.”"
+                },
+                {
+                    "section": "3.3",
+                    "text": "“Purpose of processing: … create a comprehensive health profile … we will keep the previous entries to allow you to track its development.”"
+                },
+                {
+                    "section": "3.5",
+                    "text": "“Purpose of processing: … provide you with the requested functionality … identify and suggest possible causes … present options to address the identified causes … symptom tracker … No data will be shared with any third party without your specific consent.”"
+                },
+                {
+                    "section": "3.6",
+                    "text": "“Purpose of processing: … show you available [partner] options based on the determined conditions … Your data is only processed internally at Ada and will not be shared with our partners.”"
+                },
+                {
+                    "section": "3.7",
+                    "text": "“Purpose of processing: … determine your suitability to participate in research studies … your data will only be processed to identify research projects you might be suitable for and invite you to them.”"
+                },
+                {
+                    "section": "3.8",
+                    "text": "“Purpose of processing: We process pseudonymized data to carry out aggregate statistics … We present such aggregated statistics to our partners, always on an irreversibly anonymized basis.”"
+                },
+                {
+                    "section": "3.9",
+                    "text": "“Purpose of processing: We process pseudonymized data for public health purposes … We may share and present the results as summarized statistics … always on an irreversibly anonymized basis.”"
+                },
+                {
+                    "section": "3.10",
+                    "text": "“Purpose of processing: … systematically monitor … quality, performance and safety (‘Post-Market-Surveillance’) … track user’s interactions …”"
+                },
+                {
+                    "section": "3.11",
+                    "text": "“Purpose of processing: … understand how Ada reaches people online … We will never share your personal health information with advertisers …”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“Purpose of processing: … technical and organisational measures … verify your email address or … backups … bug bounty programs …”"
+                },
+                {
+                    "section": "3.13",
+                    "text": "“Purpose of processing: … send you direct marketing … communication about any survey … Those messages will not contain any health information about you.”"
+                },
+                {
+                    "section": "3.14",
+                    "text": "“Purpose of processing: … track your page interaction … optimize our marketing initiatives.”"
+                },
+                {
+                    "section": "3.15",
+                    "text": "“Purpose of processing: … ensure the proper use, functioning, maintenance and improvement … as well as to prevent any decompiling or otherwise reverse engineering.”"
+                },
+                {
+                    "section": "3.16",
+                    "text": "“Purpose of processing: … understand if and how our products can be improved … analyze and evaluate your input.”"
+                },
+                {
+                    "section": "3.18",
+                    "text": "“Purpose of processing: … exercise a legal claim … or … defend … Your data will not be used for any other purpose during that time.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“Ada shares your personal data with third parties to provide you with its services or as required in the course of its business.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“If your personal data is used for more than one purpose, we will retain it until the purpose with the longest period expires, but we will stop using it for the purpose with the shorter period as soon as the shorter period expires (to comply with the purpose limitation principle).”"
+                },
+                {
+                    "section": "3.20",
+                    "text": "“For the validation of such capabilities we only use anonymized real world user data such as anonymized past assessment data…”"
+                }
+            ],
+            "rating": "Compliant",
+            "justification": "The policy specifies multiple explicit purposes per processing activity using a consistent “Types of data / Purpose / Use justification” structure (policy wording), which matches Article 5(1)(b)’s requirement that purposes be specified and determined at collection and aligns with Recital 39’s emphasis on explicit and legitimate purposes. It also separates additional uses (research/statistics/public health, post-market surveillance, marketing, monitoring, legal claims) and includes purpose-scoping language (e.g., research invitations vs. participation; anonymized outputs to partners). While some purposes are broad (“administrative purposes”, “improvement”), they are still stated as purposes tied to defined activities rather than open-ended further processing, and research/statistics are framed with pseudonymization/anonymization safeguards consistent with the compatible-processing concept in Article 5(1)(b)."
+        },
+        {
+            "principle": "Data minimisation",
+            "article_5_text": "Personal data shall be: (c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’).",
+            "recital_39_reference": "Recital 39 states that personal data should be adequate, relevant and limited to what is necessary for the purposes for which they are processed, and that data should be processed only if the purpose could not reasonably be fulfilled by other means.",
+            "relevant_clauses": [
+                {
+                    "section": "Ada's service",
+                    "text": "“You are not under any obligation to provide your personal information to Ada. Please note however, that most functionalities rely on information about yourself and specifically your health. Without providing this information you might not be able to use those functionalities…”"
+                },
+                {
+                    "section": "2 (Information that you provide)",
+                    "text": "“The information that we may ask you to provide includes, but is not limited to, your name, gender, date of birth, email address, phone number, symptoms of your illness… health insurance (optional)… or further information required to verify your identity.”"
+                },
+                {
+                    "section": "2 (Information we collect)",
+                    "text": "“although we will not use it to identify you, we may collect … Usage data … Analytics data…”"
+                },
+                {
+                    "section": "3.1",
+                    "text": "“We do not use the data collected for the purpose of identifying you.”"
+                },
+                {
+                    "section": "3.2a",
+                    "text": "“health insurance (optional), general data about your health (optional) … It is not possible to access and use our App if the (non-optional) data are not provided.”"
+                },
+                {
+                    "section": "3.3",
+                    "text": "“The use of this feature is voluntary and not a requirement to use the symptom assessment.”"
+                },
+                {
+                    "section": "3.5",
+                    "text": "“Our symptom assessment relies on data about yourself and your symptoms … it is not possible to provide you with our symptom assessment … without such consent, as they rely on the processing of your health data.”"
+                },
+                {
+                    "section": "3.6",
+                    "text": "“Your data is only processed internally at Ada and will not be shared with our partners.”"
+                },
+                {
+                    "section": "3.8",
+                    "text": "“We process pseudonymized data … Before we share any data with Tableau, we remove all information that directly identifies you.”"
+                },
+                {
+                    "section": "3.9",
+                    "text": "“We process pseudonymized data for public health purposes … always on an irreversibly anonymized basis.”"
+                },
+                {
+                    "section": "3.10",
+                    "text": "“To the extent possible, we use pseudonymized or anonymized data … However, in some circumstances your (sensitive) personal information might also be processed in the clear…”"
+                },
+                {
+                    "section": "3.11",
+                    "text": "“We process some usage data (which does not include personal health data) … We only use pseudonymized usage data … We will never share your personal health information with advertisers…”"
+                },
+                {
+                    "section": "3.15",
+                    "text": "“Under no circumstances will we use the collected data to determine your identity.”"
+                },
+                {
+                    "section": "4",
+                    "text": "“Your data collected in this way is pseudonymized and is not stored together with your other personal data.”"
+                },
+                {
+                    "section": "5",
+                    "text": "“Your health data and other sensitive data will always stay in the EU.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“Ada does not share your data for third-party commercial interests without your explicit consent.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“We will hold your personal data for as long as it is necessary … and always in compliance with the data minimization principle.”"
+                },
+                {
+                    "section": "3.20",
+                    "text": "“For the validation of such capabilities we only use anonymized real world user data … no user is (re-)identifiable…”"
+                }
+            ],
+            "rating": "Partially compliant",
+            "justification": "The policy contains several minimisation-oriented commitments—optional fields, purpose-limited internal processing, pseudonymization/anonymization for analytics and sharing, and statements that certain usage data is not used to identify users (policy wording)—which supports Article 5(1)(c) and reflects Recital 39’s “limited to what is necessary” guidance. However, some data lists are expansive and open-ended (“includes, but is not limited to…”, and broad technical logging categories) without always explaining necessity at a granular level per data element, making it harder to verify that each category is strictly necessary for each purpose as Recital 39 expects."
+        },
+        {
+            "principle": "Accuracy",
+            "article_5_text": "Personal data shall be: (d) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’).",
+            "recital_39_reference": "Recital 39 emphasizes that every reasonable step should be taken to ensure that inaccurate personal data are rectified or deleted.",
+            "relevant_clauses": [
+                {
+                    "section": "Ada's service",
+                    "text": "“In some cases, the accuracy of the results might be impacted. This will be indicated in the description of the individual processing activities in Section 3 below.”"
+                },
+                {
+                    "section": "3.3",
+                    "text": "“When you update information such as height and weight in your profile, we will keep the previous entries to allow you to track its development.”"
+                },
+                {
+                    "section": "8 (Right to restriction of processing)",
+                    "text": "“This can be the case, for example, if you contest the accuracy of the personal data. In such a case, the restriction of processing lasts for a period that enables us to verify the accuracy of the personal data…”"
+                },
+                {
+                    "section": "8 (Right to Rectification)",
+                    "text": "“As a data subject, you have the right to rectification … without undue delay, the rectification of inaccuracies in your personal data and completion of incomplete personal data.”"
+                },
+                {
+                    "section": "8 (Verification)",
+                    "text": "“Verification: … we will take reasonable steps such as asking you to send us a confirmation … If there is no email address … we may ask you for proof of ID.”"
+                }
+            ],
+            "rating": "Partially compliant",
+            "justification": "The policy explicitly recognizes the right to rectification “without undue delay” and describes restriction of processing when accuracy is contested (policy wording), which maps to Article 5(1)(d)’s obligation to address inaccuracies and aligns with Recital 39’s call to rectify or delete inaccurate data. However, it provides limited operational detail on how users can directly review and update core health-assessment inputs beyond general rights statements, and it does not describe concrete controller-side accuracy controls (e.g., update mechanisms, periodic review) for key datasets, which weakens the demonstration of “every reasonable step” in practice."
+        },
+        {
+            "principle": "Storage limitation",
+            "article_5_text": "Personal data shall be: (e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’).",
+            "recital_39_reference": "Recital 39 states that the period for which personal data are stored should be limited to a strict minimum, and that time limits should be established for erasure or periodic review.",
+            "relevant_clauses": [
+                {
+                    "section": "3.1",
+                    "text": "“Storage duration: Your data is removed after 15 days… Your data will be stored by Cloudflare for 6 months… If there is a security-relevant event, server log files are stored until the security-relevant event has been eliminated and clarified in full.”"
+                },
+                {
+                    "section": "3.2a",
+                    "text": "“Storage duration: We process your data … until you request deletion of your account or when you delete your account… We may retain your data as explained in Sec. 3.18.”"
+                },
+                {
+                    "section": "3.2b",
+                    "text": "“Storage duration: … we store your data for as long as your user account exists … When you use Ada Assess without an account we store your assessment for the duration of existing retention requirements of medical safety under applicable medical device regulations…”"
+                },
+                {
+                    "section": "3.3",
+                    "text": "“Storage duration: Your data will be stored until you delete it, or your account is terminated.”"
+                },
+                {
+                    "section": "3.5",
+                    "text": "“We will then delete or irreversibly anonymize your case data … within 1 month. We will further retain some of your data (see section 7 for more details) but we will not process the data for any other purposes.”"
+                },
+                {
+                    "section": "3.11",
+                    "text": "“Storage duration: … We will delete the data latest within 45 days.”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“Storage period: Your data will be stored for as long as necessary to implement the measures.”"
+                },
+                {
+                    "section": "3.13",
+                    "text": "“Storage duration: We will store your data until you revoke your consent or object…”"
+                },
+                {
+                    "section": "3.14",
+                    "text": "“Storage duration: … removed latest within 45 days.”"
+                },
+                {
+                    "section": "3.15",
+                    "text": "“Storage duration: Your data is removed after 60 days, unless a security-relevant event occurs … [then] stored until … clarified.”"
+                },
+                {
+                    "section": "3.18",
+                    "text": "“After termination of the account, we will retain your data for up to seven years in secured form … only … accessed in case of litigation and not … for any other purpose.”"
+                },
+                {
+                    "section": "3.19",
+                    "text": "“Ada will store the documentation of the data transfer for up to four years following the sharing of data.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“We will hold your personal data for as long as it is necessary or required by law or by any relevant regulatory body…”"
+                },
+                {
+                    "section": "7",
+                    "text": "“Specific storage periods for the respective processing activities are detailed in section 3 above.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“If your personal data is used for more than one purpose, we will retain it until the purpose with the longest period expires, but we will stop using it for the purpose with the shorter period as soon as the shorter period expires…”"
+                },
+                {
+                    "section": "7",
+                    "text": "“We will retain Post-Market-Surveillance data (incl. health data) in accordance with our storage obligations according to the medical device law.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“We will retain data (incl. health data) … for up to seven years … for … legal claims.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“If the processing of your personal data is no longer necessary for any purpose it is either irreversibly anonymized … or securely erased.”"
+                }
+            ],
+            "rating": "Partially compliant",
+            "justification": "The policy provides multiple concrete retention periods (e.g., 15 days, 45 days, 60 days, 4 years, up to 7 years) and describes deletion/anonymization pathways (policy wording), which supports Article 5(1)(e) and mirrors Recital 39’s expectation of time limits and strict-minimum retention. However, several key activities still rely on open-ended retention language (“as long as necessary”, “until no longer necessary”, “in accordance with … obligations”) without specifying the applicable legal retention timeframes or review intervals, which weakens Recital 39’s requirement for clear limits and periodic review mechanisms."
+        },
+        {
+            "principle": "Integrity and confidentiality",
+            "article_5_text": "Personal data shall be: (f) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).",
+            "recital_39_reference": "Recital 39 highlights that processing should ensure security and confidentiality, consistent with providing transparent assurances about safeguards (and it links to the broader GDPR expectation of appropriate technical and organisational measures).",
+            "relevant_clauses": [
+                {
+                    "section": "3.1",
+                    "text": "“For purposes of system security, we engage CloudFlare … as our data processor… We have entered into a Data Protection Agreement with Cloudflare.”"
+                },
+                {
+                    "section": "3.10",
+                    "text": "“To the extent possible, we use pseudonymized or anonymized data … However … might also be processed in the clear … where it is necessary to reach out to you.”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“Ada implements a variety of technical and organisational measures to ensure that your data is adequately protected … expressly required by law in Art. 32 GDPR … needed for the ISO 27001 certification…”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“Ada also runs bug bounty programs … The processing of your personal data is not intended for the purposes of these programs, but it cannot be completely ruled out either… we conclude a data processing agreement … in accordance with Art. 28 GDPR.”"
+                },
+                {
+                    "section": "3.15",
+                    "text": "“We use the above data … to ensure the proper use, functioning, maintenance and improvement … as well as to prevent any decompiling or otherwise reverse engineering.”"
+                },
+                {
+                    "section": "5",
+                    "text": "“Sensitive information between your browser and our Website is transferred in encrypted form using Transport Layer Security (‘TLS’).”"
+                },
+                {
+                    "section": "5",
+                    "text": "“When transmitting sensitive information, you should always make sure that your browser can validate our certificate.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“We use technical service providers … who act as our processors based on data processing agreements as required by Art. 28 GDPR.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“Where we use Service providers who process personal data … outside the EEA … we do so with the appropriate safeguards … Standard Contractual Clauses with added securities (where necessary).”"
+                },
+                {
+                    "section": "3.18",
+                    "text": "“For that time, we will encrypt and vault your data including your health information… Your data can only be accessed by limited personal subject to a procedure that involves approval by our Data Processing Officer.”"
+                },
+                {
+                    "section": "7",
+                    "text": "“We restrict access to your personal data to the persons who need to use it for the relevant purpose(s), always in compliance with the integrity and confidentiality principle.”"
+                }
+            ],
+            "rating": "Compliant",
+            "justification": "The policy describes multiple technical and organisational measures—TLS encryption in transit, restricted access, encryption/vaulting for litigation holds, security logging, and formal processor arrangements under Article 28—along with an Art. 32 GDPR/ISO 27001 framing (policy wording). This directly supports Article 5(1)(f)’s requirement for appropriate security against unauthorized processing and accidental loss/damage, and is consistent with Recital 39’s emphasis on safeguarding confidentiality and security through appropriate measures. While it does not enumerate all controls (e.g., encryption at rest standards), the combination of stated security governance, access restriction, and contractual safeguards is sufficient to meet the principle at the policy level."
+        },
+        {
+            "principle": "Accountability",
+            "article_5_text": "The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).",
+            "recital_39_reference": "Recital 39 is silent on Article 5(2); accountability must be assessed directly against Article 5(2)’s requirement that the controller can demonstrate compliance with Article 5(1).",
+            "relevant_clauses": [
+                {
+                    "section": "1",
+                    "text": "“Ada Health GmbH … being the data controller … of all processing activities in connection with the Services.”"
+                },
+                {
+                    "section": "1",
+                    "text": "“Our data protection officer can be contacted at [dpo@ada.com](mailto:dpo@ada.com).”"
+                },
+                {
+                    "section": "3 (general structure)",
+                    "text": "Section 3 provides per-activity documentation elements: “Types of data”, “Purpose of processing”, “Use justification”, “Storage duration”."
+                },
+                {
+                    "section": "3.1",
+                    "text": "“We have entered into a Data Protection Agreement with Cloudflare.”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“The implementation of these measures is expressly required by law in Art. 32 GDPR and is also needed for the ISO 27001 certification …”"
+                },
+                {
+                    "section": "3.12",
+                    "text": "“For this unlikely event, we conclude a data processing agreement with all third parties involved in accordance with Art. 28 GDPR.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“We use technical service providers … who act as our processors based on data processing agreements as required by Art. 28 GDPR.”"
+                },
+                {
+                    "section": "6",
+                    "text": "“Most of our US service providers are certified under the EU-US Data Privacy Framework… [otherwise] Standard Contractual Clauses with added securities…”"
+                },
+                {
+                    "section": "7",
+                    "text": "“Specific storage periods … detailed in section 3 above.”"
+                },
+                {
+                    "section": "8",
+                    "text": "The policy provides mechanisms to exercise GDPR rights and identifies the competent supervisory authority: “Berlin Data Protection Authority …”"
+                }
+            ],
+            "rating": "Partially compliant",
+            "justification": "The policy demonstrates some accountability elements by clearly identifying Ada as controller, naming a DPO contact, documenting processing activities with purposes, legal bases, and retention periods, and referencing processor DPAs and security measures (policy wording), which supports the Article 5(2) expectation of demonstrable compliance. However, Article 5(2) requires demonstrability beyond notice content; the policy does not describe key accountability instruments (e.g., records of processing activities, DPIAs for large-scale health processing, governance/testing of anonymization claims, audit/monitoring processes) in a way that shows Ada can substantively “demonstrate” compliance across Article 5(1). Therefore, the principle is only partially met based on what is evidenced in the policy text."
+        }
+    ]
+}
