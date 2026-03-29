@@ -15,12 +15,13 @@ The project has been restructured to separate raw experimental results from thei
 - **[`gemini_judge_output/`](gemini_judge_output/README.md)**: Contains the "LLM-as-judge" evaluation results. Gemini assessed the main model outputs for **Rubric Alignment (RAS)** and **Justification Quality (JJS)**.
 - **[`prompts/`](prompts/)**: The exact prompt templates used in all experimental phases, from simple zero-shot instructions to few-shot prompts with contextual legal examples.
 
-### Core Methodology & Research Assets
-- **`thesis.pdf`**: The full master's thesis document providing the theoretical background, experimental setup, and detailed analysis of findings.
-- **`golden_standard_bullet_points.md`**: A comprehensive evaluation rubric manually developed by a legal expert to score the accuracy and consistency of LLM justifications.
-- **`compute_flip_rates.py`**: A script to calculate the "Flip Rate", the frequency with which a model changes its compliance rating when prompt phrasing is modified.
-- **`flip_rate_analysis_v2.csv`**: The tabulated results of the flip rate analysis used in the thesis.
+### Analysis & Scripts
+- **[`scripts/`](scripts/)**: Contains Python scripts for parsing outputs and their resulting data files (e.g., `flip_rate_analysis_v2.csv`).
+  - `analyze_gdpr_outputs.py`: Parses raw JSON assessments, conducts text verification, and outputs aggregated results.
+  - `compute_flip_rates.py`: Calculates the "Flip Rate", the frequency with which a model changes its compliance rating based on prompt phrasing.
 
+### Core Methodology & Research Assets
+- **`golden_standard_bullet_points.md`**: A comprehensive evaluation rubric manually developed by a legal expert to score the accuracy and consistency of LLM justifications.
 ## Measurement Framework
 
 This study evaluates the models across three key dimensions:
@@ -53,11 +54,17 @@ Follow these steps to set up the environment and explore the analysis scripts:
     ```
 
 4.  **Run Analysis**:
+    Navigate to the `scripts` directory to run the analysis tools.
     To recalculate flip rates:
     ```bash
+    cd scripts
     python compute_flip_rates.py
     ```
-
+    To analyze raw outputs and generate an Excel report:
+    ```bash
+    cd scripts
+    python analyze_gdpr_outputs.py
+    ```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
