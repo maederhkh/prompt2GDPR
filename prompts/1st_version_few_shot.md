@@ -143,7 +143,7 @@ Privacy Policy to evaluate:
 OUTPUT FORMAT:
 
 Return only a JSON object, following this exact schema — no additional commentary, headings, or text outside the JSON.
-
+```json
 {
 
   "analysis": [
@@ -173,4 +173,4 @@ Return only a JSON object, following this exact schema — no additional comment
   ]
 
 }
-
+```

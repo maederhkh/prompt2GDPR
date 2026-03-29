@@ -128,7 +128,7 @@ Justification: The clause enables both self-correction and rectification request
 OUTPUT FORMAT:
 
 Return only a JSON object, following this exact schema — no additional commentary, headings, or text outside the JSON.
-
+```json
 {
 
   "analysis": [
@@ -158,7 +158,7 @@ Return only a JSON object, following this exact schema — no additional comment
   ]
 
 }
-
+```
 TASK:
 
 Now evaluate the following privacy policy using the same reasoning pattern and tone as the examples above.

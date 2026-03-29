@@ -136,7 +136,7 @@ Justification: The clause enables both self-correction and rectification request
 OUTPUT FORMAT
 
 Return only a JSON object in this exact schema — no text outside the JSON.
-
+```json
 {
 
   "analysis": [
@@ -166,6 +166,7 @@ Return only a JSON object in this exact schema — no text outside the JSON.
   ]
 
 }
+```
 
 TASK:
 
