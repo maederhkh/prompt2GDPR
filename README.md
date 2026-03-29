@@ -4,7 +4,7 @@ This repository contains the appendices, experimental outputs, and analysis scri
 
 ## Abstract Overview
 
-The research investigates the legal reliability and stability of Large Language Models (LLMs) like **GPT-5.2** and **Grok** when evaluating a real-world healthcare privacy policy (Ada Health GmbH). It specifically examines how advanced prompting strategies—ranging from structured zero-shot to complex few-shot prompts—and extended reasoning modes (e.g., GPT's Extended Thinking and Grok's Expert Mode) influence the model's ability to produce legally sound compliance judgments against the seven core principles of GDPR Article 5.
+The research investigates the legal reliability and stability of Large Language Models (LLMs) like **GPT-5.2** and **Grok** when evaluating a real-world healthcare privacy policy (Ada Health GmbH). It specifically examines how advanced prompting strategies, ranging from structured zero-shot to complex few-shot prompts, and extended reasoning modes (e.g., GPT's Extended Thinking and Grok's Expert Mode) influence the model's ability to produce legally sound compliance judgments against the seven core principles of GDPR Article 5.
 
 ## Repository Structure
 
@@ -18,7 +18,7 @@ The project has been restructured to separate raw experimental results from thei
 ### Core Methodology & Research Assets
 - **`thesis.pdf`**: The full master's thesis document providing the theoretical background, experimental setup, and detailed analysis of findings.
 - **`golden_standard_bullet_points.md`**: A comprehensive evaluation rubric manually developed by a legal expert to score the accuracy and consistency of LLM justifications.
-- **`compute_flip_rates.py`**: A script to calculate the "Flip Rate"—the frequency with which a model changes its compliance rating when prompt phrasing is modified.
+- **`compute_flip_rates.py`**: A script to calculate the "Flip Rate", the frequency with which a model changes its compliance rating when prompt phrasing is modified.
 - **`flip_rate_analysis_v2.csv`**: The tabulated results of the flip rate analysis used in the thesis.
 
 ## Measurement Framework
