@@ -1,0 +1,462 @@
+{
+  "principle_id": "Lawfulness, Fairness, Transparency",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Identity & roles: Does it clearly name the controller (and key roles like DPO/contact) and how to reach them? Yes- 1-who we are? Section (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly cites the policy's identification of Ada Health GmbH as the controller and provides the DPO contact email.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Lawfulness hook: Does it state why processing is lawful (e.g., consent/contract/legal obligation/legitimate interest), at least at a high level? Yes section 3 and its subsections (purpose of processing) (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model quotes multiple sections (3.1, 3.2a, 3.5) that specify legal bases like legitimate interest, contract performance, and consent.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Clear purposes: Does it explain what data is used for in clear, plain terms (not just generic “improve services”)? Yes section 3 and its subsections clearly mentioned all kinds of data which they use for each purpose (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model acknowledges the presence of 'detailed purposes' and 'specific data processing activities' across various sections of the policy.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Transparency quality: Is the information easy to find and easy to understand (clear language, structured sections, no hidden key points)? Yes, this policy is well-structured and clearly mapped everything with different headings, it is long but provide everything, some sections combine 2-3 legal basis (+1)",
+        "label": "ENTAILS",
+        "rationale": "The model discusses transparency, noting both the extensive elements provided and the potential complexity of layered documents and combined bases.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Fairness expectations: Does it avoid “surprise” processing (or clearly warns about unusual processing) so users can reasonably expect what happens to their data? Secondary use of personal data for research or statistics purposes, are based on legitimate interests and or public interest instead of what users expect (mean consent) so these are lawful explained but might in contrast with users’ expectation or in other hand keeping some kinds of data for 7 years even is justified under article 9 and disclosed and vaulted but it is in contrast with users’ expectation. (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated output focuses on structural transparency and legal bases but does not specifically address 'surprise' processing, research/statistics use, or the 7-year retention expectation.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 4,
+    "no_overreach": 5,
+    "jjs_principle_score": 4.8,
+    "brief_notes": "* Excellent use of direct quotes to support the identification of legal roles and bases. \n* Correctly applies Recital 39 criteria to the 'Transparency' assessment. \n* Good calibration regarding the complexity of 'layered' documentation. \n* Reasoning is internally consistent and strictly adheres to the provided policy excerpts."
+  }
+}
+{
+  "principle_id": "Purpose limitation",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Specified & explicit purposes: Are purposes listed in a specific way (separate purposes, not one vague bucket)?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated output explicitly mentions 'activity-specific “Purpose of processing” clauses across Section 3', which matches the gold standard's finding of separate purposes.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Purpose at collection: Does it indicate purposes are determined at the time of collection (or at least before use)?",
+        "label": "ENTAILS",
+        "rationale": "The justification specifically references Recital 39’s requirement that purposes be 'set at collection' and concludes the policy aligns with this.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "No “unlimited purpose” language: Does it avoid wording that allows use for undefined/unlimited future purposes?",
+        "label": "ENTAILS",
+        "rationale": "By highlighting the 'explicit' nature of the purposes and the commitment to stop use once specific periods expire, the model substantively agrees the policy is 'purpose tight'.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Further processing rules: If it mentions re-use (analytics, research, marketing, “improvement”), does it explain conditions/limits (e.g., consent, legal basis, compatibility, safeguards)?",
+        "label": "ENTAILS",
+        "rationale": "The model cites the policy's treatment of statistical and public health uses, noting the use of pseudonymization/anonymization as safeguards.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Compatibility logic: Does it explain how new purposes are linked to the original ones (instead of “we may use your data for other purposes”)?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated output discusses compatibility in the context of statistical research carve-outs but does not address the lack of transparent explanation for future new purposes noted in the gold bullet.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 4,
+    "jjs_principle_score": 4.8,
+    "brief_notes": "* Excellent link between specific Section 3 clauses and the Article 5(1)(b) requirements.\n* Strong understanding of the statistical/scientific research compatibility carve-out.\n* Correctly identifies the importance of 'determination at collection'.\n* Rating of 'Compliant' is well-supported by the cited granularity."
+  }
+}
+{
+  "principle_id": "Data minimisation",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Data categories listed: Does it say what categories of personal data it collects/uses (not just “information you provide”)?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated output lists specific data categories (name, gender, date of birth, phone number, etc.) in its justification and cited clauses.",
+        "human": {
+          "override": True,
+          "final_label": "NOT_addressed",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Link data → purpose: Does it connect data categories to purposes (so readers see why each type is needed)?",
+        "label": "CONTRADICTS",
+        "rationale": "The evaluated model explicitly criticizes the policy for 'not consistently explaining necessity by purpose' for broad intake categories.",
+        "human": {
+          "override": false,
+          "final_label": "CONTRADICTS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "“Only necessary” commitment: Does it state it collects/uses only what is necessary (not excessive) for those purposes?",
+        "label": "ENTAILS",
+        "rationale": "The model identifies that the policy uses general assurances and 'limited to what is necessary' framing, matching the substantive observation of partial adherence.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Avoids disproportionate data: Does it avoid asking for overly sensitive/excessive data unless clearly justified?",
+        "label": "ENTAILS",
+        "rationale": "The model questions the necessity of specific elements like phone numbers and identity verification, aligning with the gold bullet's concern over excessive data.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Alternative/optional data: Does it distinguish required vs optional data (or explain “if you don’t provide X, service Y won’t work”)?",
+        "label": "ENTAILS",
+        "rationale": "The model specifically highlights 'optional fields' and the policy's warning that certain functionalities rely on providing health information.",
+        "human": {
+          "override": True,
+          "final_label": "NOT_ADDRESSED",
+          "note": "GPT5 stated about optional data but didn't mention anything about consequesces of not providing data from data subjects"
+        }
+      }
+    ],
+    "ras_principle_score": 0.4
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 4,
+    "no_overreach": 4,
+    "jjs_principle_score": 4.5,
+    "brief_notes": "* Traceability is strong, linking specific clauses like 'phone number' to a lack of purpose-based justification.\n* Calibration: 4; accurately handles the tension between pseudonymization and broad collection, but could hedge more on the 'not limited to' phrasing.\n* No overreach: 4; while well-reasoned, it assumes certain elements aren't necessary without seeing the full context of service delivery."
+  }
+}
+{
+  "principle_id": "Accuracy",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Right to rectification: Does it clearly tell users they can correct/update inaccurate data (and how)?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model cites the 'Right to Rectification' section and Article 16 GDPR, confirming the user's ability to correct data.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Update mechanism: Does it describe a practical way to keep data up to date (account settings, contact form, etc.)?",
+        "label": "ENTAILS",
+        "rationale": "The model mentions 'user-driven updates' and cites section 3.3 regarding updating information in the profile.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Correction without delay (commitment): Does it commit to fixing/deleting inaccurate data within a reasonable timeframe (or “without undue delay” wording)?",
+        "label": "ENTAILS",
+        "rationale": "The output explicitly quotes the policy's commitment to rectification 'without undue delay' in Section 8.",
+        "human": {
+          "override": True,
+          "final_label": "NOT_ADDRESSED",
+          "note": "GPT‑5 does not say the policy commits to correcting/erasing inaccurate data “without undue delay” (or within a concrete timeframe); it only says the policy describes rectification/restriction rights, and criticizes missing operational measures. Gemini instead of checking the justification quality without looking at queted section for this part of metric1, for labeling the bullet point combined quoted sections with GPT5's justification."
+        }
+      },
+      {
+        "gold_bullet": "Source clarity: If data comes from third parties, does it explain that and how accuracy is handled?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated output does not discuss third-party data sources or the proactive checking of such data for accuracy.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Proactive steps: article 5(1)(d) talks about “every reasonable steps” and recital 39 clearly state this too so we can say that accuracy separate into 2 part: reactive steps which is based on data subjects’ request for updating or deleting inaccurate data and proactive steps which completely is about controller responsibility about review and take reasonable steps for keeping update inaccurate data even without data subjects’ requests and there I s no signal about proactive steps in this policy",
+        "label": "ENTAILS",
+        "rationale": "The model directly critiques the policy for lacking 'operational measures' or proactive 'reasonable step' actions beyond user-driven updates.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.6
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent distinction between reactive rights and proactive 'every reasonable step' obligations under GDPR."
+  }
+}
+{
+  "principle_id": "Storage limitation",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Retention periods: Does it give specific retention times or clear criteria per data type/purpose (not just “as long as necessary”)?",
+        "label": "ENTAILS",
+        "rationale": "The model identifies both 'multiple concrete time limits' (15/45/60 days) and critiques 'open-ended' statements, matching the gold standard's mixed finding.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Deletion/review process: Does it mention time limits for deletion or periodic review of whether storage is still needed?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly notes the absence of 'explicit periodic review procedures', which is exactly the point raised in the gold bullet.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Identifiers minimized over time: Does it mention deletion, anonymization, or aggregation when identification is no longer needed?",
+        "label": "ENTAILS",
+        "rationale": "The model quotes policy clauses about deleting or 'irreversibly anonymizing' data when no longer necessary for a purpose.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Exceptions explained: If it keeps data longer (e.g., legal claims, archiving/research/statistics), does it explain the reason and safeguards?",
+        "label": "ENTAILS",
+        "rationale": "The model cites the 7-year litigation retention and medical device law obligations as justifications for extended storage.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "User-facing clarity: Is retention info easy to find and understandable (not buried in legal language)?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated output focuses on the technical content of the retention periods but does not comment on the overall 'findability' or structural clarity for the user.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent reasoning that correctly identifies the GDPR requirement for periodic review beyond just having time limits."
+  }
+}
+{
+  "principle_id": "Integrity and confidentiality",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Security measures described: Does it describe security at least at a high level (technical/organizational measures), not just “we take security seriously”?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated justification explicitly notes that the policy describes multiple technical and organizational security measures, including TLS and ISO 27001-aligned controls.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Threat coverage: Does it mention protection against unauthorized access/unlawful processing and accidental loss/destruction/damage?",
+        "label": "ENTAILS",
+        "rationale": "The justification mentions that the measures support the emphasis on 'preventing unauthorised access and ensuring confidentiality', which matches the core threat coverage requirement.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Access controls & governance: Does it mention access limitation (who can access data, least privilege, training/policies) even briefly?",
+        "label": "ENTAILS",
+        "rationale": "The model's justification highlights 'access restriction' and 'governance commitments' as evidence for compliance.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Breach handling: Does it mention breach response/notification in any form (even if not detailed)?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The justification focuses on preventative security measures and access governance but does not take a position on breach handling or notification procedures.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Third parties/processors: If it uses vendors, does it say they must apply appropriate security measures too?",
+        "label": "ENTAILS",
+        "rationale": "The justification specifically references 'DPAs with processors' and 'EU hosting for sensitive data', which implies a requirement for appropriate security from vendors.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 4,
+    "no_overreach": 4,
+    "jjs_principle_score": 4.5,
+    "brief_notes": "* Calibration (4): The model correctly identifies the presence of measures but overlooks the lack of explicit breach notification mentions.\n* No overreach (4): Assumes an 'appropriate security posture' is fully met without addressing the 'accidental loss' or 'breach' gaps mentioned in the standard."
+  }
+}
+{
+  "principle_id": "Accountability",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Responsibility stated: Does the policy implicitly/explicitly indicate the controller is responsible for GDPR compliance and user rights handling?",
+        "label": "ENTAILS",
+        "rationale": "The justification notes that controller identification and DPO contact support the 'responsible for' compliance aspect of Article 5(2).",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Demonstration tools (signals): Does it mention any accountability mechanisms (records, policies, audits, DPIA, privacy-by-design, governance) at least as commitments?",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model agrees with the gold standard that the policy lacks explicit descriptions of demonstrability mechanisms like records of processing and DPIAs.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Roles & contacts: Is there a clear contact/DPO channel for privacy questions/complaints?",
+        "label": "ENTAILS",
+        "rationale": "The justification explicitly cites 'DPO contact' as one of the accountability signals present in the policy.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "User rights process: Does it clearly explain how to exercise rights + expected response steps/timeframes?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated justification focuses strictly on controller identification and demonstration mechanisms; it does not take a position on the user rights process or response timeframes.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Oversight & redress: Does it mention the supervisory authority/right to lodge a complaint (or equivalent redress path)?",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The justification does not discuss the right to lodge a complaint or the role of supervisory authorities.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.6
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* The model provides an excellent legal analysis by separating responsibility from the ability to demonstrate compliance.\n* Reasoning is internally consistent and correctly identifies that 'Partially compliant' stems from missing Art. 30/35 documentation."
+  }
+}

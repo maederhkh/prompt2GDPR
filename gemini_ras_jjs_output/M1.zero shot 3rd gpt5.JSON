@@ -1,0 +1,465 @@
+
+{
+  "principle_id": "Lawfulness, fairness and transparency",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Identity & roles: Does it clearly name the controller (and key roles like DPO/contact) and how to reach them? Yes- 1-who we are? Section (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly cites Section 1, identifies Ada Health GmbH as the controller, and provides the DPO contact email."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Lawfulness hook: Does it state why processing is lawful (e.g., consent/contract/legal obligation/legitimate interest), at least at a high level? Yes section 3 and its subsections (purpose of processing) (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model notes that Section 3 includes 'Use justification' for each activity, which directly corresponds to the lawfulness hook."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Clear purposes: Does it explain what data is used for in clear, plain terms (not just generic “improve services”)? Yes section 3 and its subsections clearly mentioned all kinds of data which they use for each purpose (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model acknowledges that Section 3 provides specific 'Purpose of processing' and 'Types of data' for each activity."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Transparency quality: Is the information easy to find and easy to understand (clear language, structured sections, no hidden key points)? Yes, this policy is well-structured and clearly mapped everything with different headings, it is long but provide everything, some sections combine 2-3 legal basis (+1)",
+        "label": "ENTAILS",
+        "rationale": "The model describes the policy as 'structurally transparent' and notes its alignment with 'clear and plain language' expectations."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Fairness expectations: Does it avoid “surprise” processing (or clearly warns about unusual processing) so users can reasonably expect what happens to their data? Secondary use of personal data for research or statistics purposes, are based on legitimate interests and or public interest instead of what users expect (mean consent) so these are lawful explained but might in contrast with users’ expectation or in other hand keeping some kinds of data for 7 years even is justified under article 9 and disclosed and vaulted but it is in contrast with users’ expectation. (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The model critiques transparency regarding storage limits and international transfers but does not specifically address 'surprise' secondary uses or user expectations regarding research."
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent linkage between cited policy sections and the final rating.\ * Correctly applies the transparency requirements of Article 5(1)(a) and Recital 39.\ * Balanced assessment that acknowledges structural strengths while identifying specific vague phrasing.\ * The critique of 'as long as necessary' is well-supported by the provided evidence."
+  }
+}
+
+```
+{
+  "principle_id": "Purpose limitation",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Specified & explicit purposes: Are purposes listed in a specific way (separate purposes, not one vague bucket)? Yes section 3 and it’s subsections (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated output explicitly mentions that the policy defines specific and explicit purposes per processing activity in Section 3."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Purpose at collection: Does it indicate purposes are determined at the time of collection (or at least before use)?  Yes section 2 (read policy at first) (quick high-level review) (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model concludes the policy is consistent with the emphasis on purposes being determined at the time of collection as per Recital 39."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "No “unlimited purpose” language: Does it avoid wording that allows use for undefined/unlimited future purposes? Yes, Policy is purpose tight (+2)",
+        "label": "ENTAILS",
+        "rationale": "The justification highlights specific language like 'Your data will not be used for any other purpose,' indicating a lack of unlimited purpose wording."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Further processing rules: If it mentions re-use (analytics, research, marketing, “improvement”), does it explain conditions/limits (e.g., consent, legal basis, compatibility, safeguards)? Yes (statistical, public health, post market surveillance, optimizing marketing…)  this secondary use of data not mentioning in general they state the exact kind of data, the purpose, storage duration, legal basis, technical safeguards, user rights (especially objection and consent withdrawal). (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model discusses the policy's approach to statistical, research, and public health processing, specifically mentioning safeguards like pseudonymization."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Compatibility logic: Does it explain how new purposes are linked to the original ones (instead of “we may use your data for other purposes”)? the policy does not give the user a transparent explanation of how Ada would evaluate any future new purposes against the original ones and it’s only stated that any change in policy will be posted or notified. (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated output does not address the presence or absence of transparency regarding the logic for evaluating future compatibility; it only addresses existing processing."
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 4,
+    "no_overreach": 5,
+    "jjs_principle_score": 4.8,
+    "brief_notes": "The model provides excellent traceability, linking its 'Compliant' rating to specific sections (3.18, 3.8-3.9). It correctly applies GDPR logic regarding compatible further processing for research. However, it is slightly over-calibrated toward a perfect rating, failing to note the missing transparency regarding future compatibility evaluation logic mentioned in the gold standard."
+  }
+}
+{
+  "principle_id": "Data minimization",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Data categories listed: Does it say what categories of personal data it collects/uses (not just “information you provide”)? Yes “information you provide” as a high quick review and section 3 (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model cites several subsections of Section 3 that list specific data types such as email, symptoms, and medical history."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Link data → purpose: Does it connect data categories to purposes (so readers see why each type is needed)? Yes section 3 (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model acknowledges that Section 3 lists types of data per processing activity, implying a link between the data and the purpose."
+        "human": {
+          "override": True,
+          "final_label": "NOT_ADDRESSED",
+          "note": "GPT‑5 critiques breadth/necessity “per data element” but doesn’t clearly affirm that each data category is tied to a specific purpose in the way your bullet requires and Gemini as a judge confuse between purpose of processing and type of data"
+        }
+      },
+      {
+        "gold_bullet": "“Only necessary” commitment: Does it state it collects/uses only what is necessary (not excessive) for those purposes? Partially, in section 2 there is a sentence “we may ask you to provide includes, but is not limited to...” which based on article 29 of data protection working party pages 6-10, shows vague and open-ended signs which is not concise even if in section 3 they have listed all data types and purpose separately and completely, the section 2 weakens the section 3 and I have to tell that, if the policy especially in section 3 is completely clear but clarity totally different from minimization, is it possible if a policy is compliant with some principles but for example not with minimization. (+1)",
+        "label": "ENTAILS",
+        "rationale": "The model identifies the 'not limited to' language in Section 2 and concludes that minimization is not fully evidenced due to broad data listings."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Avoids disproportionate data: Does it avoid asking for overly sensitive/excessive data unless clearly justified? Partially, In section 3.14 the subsection is talking about optimizing our marketing initiative, in this part it mentioned collecting scrolling, finger gesture, mouse over and something like this which we can called them “Granular Behavioral Tracking” and these are not necessary for achieving “optimizing their marketing initiative” and it is very broad collecting even with lawful bases(consent) that has brought in “use justification” part, even this part compliant lawfulness principle completely but the minimization part is not align with data minimization principle because it collected unnecessary data for a purpose, here we can mention that even if the users have consent for giving and collection too much data but under GDPR, controller has a personal duty for collecting only necessary, adequate and relevant data not more, and based on my search about optimizing marketing initiative, controller can achieve this goal by collecting less data, also in section 3.14 purpose of processing part controller stated for this purpose we don’t have any plan for collecting health data -“ does not include personal health data”- but the IP address or scrolling or etc. can be numerated as personal data and need protections. (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The model critiques expansive health datasets and 'in the clear' processing, but it does not address behavioral tracking or finger gestures in Section 3.14."
+        "human": {
+          "override": True,
+          "final_label": "ENTAIL",
+          "note": "GPT‑5 similarly flags broad categories and expansive datasets as undermining minimization, the LLM ddidn't exactly mention the words of behavioral tracking or finger gesture but it stated expansive datasets"
+        }
+      },
+      {
+        "gold_bullet": "Alternative/optional data: Does it distinguish required vs optional data (or explain “if you don’t provide X, service Y won’t work”)? Yes, it distinguishes optional and mandatory data and the consequences of not providing mandatory ones, It also gives a general warning that many features rely on health info and may not work (or work fully) without it. (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model explicitly notes the presence of 'optional fields' and cites the policy warning that functionalities rely on health information."
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent traceability with specific quotes supporting the partial compliance rating.\n* Correctly applies the necessity test inherent in the data minimization principle.\n* Nuanced calibration regarding the conflict between explicit labels and broad 'not limited to' clauses.\n* Avoids overreach by limiting critiques to the evidence presented in the policy clauses."
+  }
+}
+{
+  "principle_id": "Accuracy",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Right to rectification: Does it clearly tell users they can correct/update inaccurate data (and how)? Yes (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly cites the 'Right to Rectification' from Section 8 of the policy and mentions the right to completion of incomplete data.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Update mechanism: Does it describe a practical way to keep data up to date (account settings, contact form, etc.)? Yes (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model identifies that users can update profile information (height/weight) and can delete their account within the App.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Correction without delay (commitment): Does it commit to fixing/deleting inaccurate data within a reasonable timeframe (or “without undue delay” wording)? Yes (+2)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "While the model mentions the right to rectification and erasure, it does not specifically address or confirm a commitment to a 'timeframe' or the 'without delay' wording.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Source clarity: If data comes from third parties, does it explain that and how accuracy is handled? No they clearly explain third parties but there is no sign of talking about checking the data for being update or accurate and it could be a sign of lacking proactive steps (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated model does not discuss third-party data sources or how accuracy is handled for such data.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Proactive steps: article 5(1)(d) talks about “every reasonable steps” and recital 39 clearly state this too so we can say that accuracy separate into 2 part: reactive steps which is based on data subjects’ request for updating or deleting inaccurate data and proactive steps which completely is about controller responsibility about review and take reasonable steps for keeping update inaccurate data even without data subjects’ requests and there I s no signal about proactive steps in this policy (+0)",
+        "label": "ENTAILS",
+        "rationale": "The model's justification explicitly states that the policy does not describe 'controller-side processes to keep data up to date' or 'proactive' reasonable steps.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.6
+  },
+  "jjs": {
+    "traceability": 5, 
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent linkage between the cited rights in Section 8 and the reactive nature of the policy's accuracy compliance.\n* Correctly distinguishes between data subject rights and proactive controller obligations under GDPR.\n* Properly hedges regarding the impact of incomplete inputs on output accuracy.\n* Conclusion is well-supported by the cited absence of proactive measures."
+  }
+}
+{
+  "principle_id": "Storage limitation",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Retention periods: Does it give specific retention times or clear criteria per data type/purpose (not just “as long as necessary”)? Yes section 3 in some subsections clearly mentioned retention time but, in some parts, there are some open-ended such as “as long as necessary” in the context and practically It could be ok but, in my opinion, it is a little vague for users however they explicitly put heading for each type of data and purpose of processing (+1)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model correctly identifies both the concrete retention periods and the open-ended 'until no longer necessary' criteria.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Deletion/review process: Does it mention time limits for deletion or periodic review of whether storage is still needed? Ada has many “until no longer necessary” statements, but it doesn’t say how they ensure that point is reached (review cycle, retention-owner, purge job, etc.). Example: post-market surveillance retention is framed around ongoing regulatory obligations, but no review cadence is described. There is deletion timeline but there isn’t any sign of periodic review on their own. There are lots of time limitation but the policy doesn’t state about the controller responsibility for checking and reviewing. (+1)",
+        "label": "ENTAILS",
+        "rationale": "The model specifically notes the lack of explicit periodic review mechanisms in its justification, matching the gold standard's critique.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Identifiers minimized over time: Does it mention deletion, anonymization, or aggregation when identification is no longer needed? Yes, strongly talk about anonymize or pseudonymize “it will “delete or irreversibly anonymize” within 1 month.” / “For statistics/public health outputs, it describes use of pseudonymized inputs and sharing only irreversibly anonymized aggregated statistics.” (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model quotes and acknowledges the policy's commitment to irreversibly anonymizing case data within one month.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Exceptions explained: If it keeps data longer (e.g., legal claims, archiving/research/statistics), does it explain the reason and safeguards? Yes “Legal claims: after account termination, data retained up to 7 years; stored “encrypted and vaulted”” / “post-market surveillance/medical safety: retained according to medical device regulatory obligations (but without a concrete number of years).” (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model identifies the specific retention for legal claims (7 years) and medical safety safety obligations as cited in the gold standard.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "User-facing clarity: Is retention info easy to find and understandable (not buried in legal language)? Yes, it is a long privacy policy but it is completely understandable and easy to find because of the existence of headings. (+2)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The model focuses on the substantive clarity of the criteria rather than the navigational findability or structural clarity of the document.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent use of specific evidence from section 3 to support the rating.\n* Correctly identifies the tension between concrete periods and open-ended 'necessity' clauses.\n* Justification directly addresses Recital 39's requirement for periodic review.\n* Highly calibrated response that avoids generalizing beyond the provided policy snippets."
+  }
+}
+{
+  "principle_id": "Integrity and Confidentiality (Security)",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Security measures described: Does it describe security at least at a high level (technical/organizational measures), not just “we take security seriously”? Yes, section 3.12 completely states about technical measure and its implementation process (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly cites Section 3.12, mentions technical and organisational measures, and references the ISO 27001 certification mentioned in the policy.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Threat coverage: Does it mention protection against unauthorized access/unlawful processing and accidental loss/destruction/damage?  Yes, section 5 “unauthorized or unlawful processing” / it mention protection against “accidental loss, destruction or damage” in the classic GDPR wording by mentioning about ISO 27001 certification section 3.12. (+2)",
+        "label": "ENTAILS",
+        "rationale": "The justification notes that the policy's measures correspond to requirements for protection against unauthorised processing and loss, effectively matching the gold standard's observation of coverage through measures rather than classic wording.",
+        "human": {
+          "override": False,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Access controls & governance: Does it mention access limitation (who can access data, least privilege, training/policies) even briefly? Yes, Section 7 explicitly mentioned about integrity and confidentiality principle in GDPR / These statements express role-based / need-to-know access control, plus an additional governance layer (DPO approval) for a high-risk scenario. / It mentions about limited access in legal claims related section. (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model identifies access restriction in Section 7 and the specific DPO-approved access for vaulted data in Section 3.18.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Breach handling: Does it mention breach response/notification in any form (even if not detailed)? Yes, section 3.1/ section 3.15/ it states Incident detection and response but there isn’t any sign about Incident detection and response and Detection, logging, and remediation of “security-relevant events” are described, but breach notification obligations under Art. 33–34 GDPR are not mentioned to users. (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated model does not mention incident detection, breach response, or notification obligations in its justification or cited clauses.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Third parties/processors: If it uses vendors, does it say they must apply appropriate security measures too? Yes. The policy clearly states that processors act under Art. 28 GDPR DPAs, with additional safeguards for international transfers (DPF, SCCs, Art. 44 et seq.), which implies appropriate security and data protection measures by vendors. Section 6, Cloudflare 3.1, Braze service provider, section 3.15 (+2)",
+        "label": "ENTAILS",
+        "rationale": "The model cites Section 6 and Section 3.1 regarding Art. 28 DPAs and international transfer safeguards (SCCs/DPF), which confirms the requirement for vendor security.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.8
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Clear and logical chain of reasoning from specific policy quotes to the 'Compliant' rating.\n* Accurately identifies the link between technical measures like TLS/ISO 27001 and the GDPR principle.\n* Appropriately highlights the intersection of security and governance (DPO approval process).\n* Avoids overclaiming by sticking to the cited Article 28 and 32 requirements present in the text."
+  }
+}
+{
+  "principle_id": "Accountability",
+  "judge_ras": {
+    "bullets": [
+      {
+        "gold_bullet": "Responsibility stated: Does the policy implicitly/explicitly indicate the controller is responsible for GDPR compliance and user rights handling? Yes, the policy clearly identifies the controller and links that role to GDPR in section 1/ It also frames the policy as the basis for processing and explains that users must read it to understand how their data are processed and what rights they have. / Responsibility of the controller is clearly identified; explicit “we are responsible for compliance” wording is implicit rather than express, but functionally adequate. / The controller in policy states everything such as data subjects’ rights, third parties and service providers information, in section 3 it mentioned purpose of processing, types of data, storage duration and use justification and provides some other links through text for more information but they don’t mention clearly and explicitly “we are responsible for compliance with GDPR” however this policy was written based on GDPR. (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model identifies Ada Health GmbH as the data controller and notes that the policy documents processing activities and legal bases, which aligns with the implicit identification of responsibility.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Demonstration tools (signals): Does it mention any accountability mechanisms (records, policies, audits, DPIA, privacy-by-design, governance) at least as commitments? There are accountability signals, but they are mainly around security, retention and processor control section 7 “always in compliance with the integrity and confidentiality principle” / legal claims section/ “We use technical service providers … who act as our processors based on data processing agreements as required by Art. 28 GDPR… Where we use service providers … outside the EEA … we do so with the appropriate safeguards… Standard Contractual Clauses… EU-US Data Privacy Framework.” However, core demonstrability tools (records of processing, DPIA, privacy-by-design) are not explicitly mentioned, so this is only partially satisfying Article 5(2)’s “be able to demonstrate” aspect at the policy-text level. No explicit reference to: · Records of processing activities (Art. 30), · Data Protection Impact Assessments (DPIA), · Privacy by design/default (Art. 25), · Internalaudit or broader governance frameworks in the privacy text. (+0)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model explicitly critiques the lack of 'concrete accountability artifacts' such as records of processing and internal controls, reaching the same negative conclusion as the gold standard.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Roles & contacts: Is there a clear contact/DPO channel for privacy questions/complaints? Yes, “Questions, comments and requests regarding this Privacy Policy are welcome and should be addressed via email to support@ada.com or through our contact form… Our data protection officer can be contacted at dpo@ada.com.” (+2)",
+        "label": "ENTAILS",
+        "rationale": "The evaluated model cites Section 1 and explicitly mentions identifying the DPO with their email address.",
+        "human": {
+          "override": false,
+          "final_label": "ENTAILS",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "User rights process: Does it clearly explain how to exercise rights + expected response steps/timeframes? Very clearly explained (what rights exist, how to exercise them, how identity is verified) in section 8, but for timeframe it Only states generic (“without undue delay”), no explicit “one month” reference for GDPR 12(3). (+1)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated model's output does not discuss the process for exercising rights or any associated timeframes.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      },
+      {
+        "gold_bullet": "Oversight & redress: Does it mention the supervisory authority/right to lodge a complaint (or equivalent redress path)? Yes, section 8 right to complain. (+2)",
+        "label": "NOT_ADDRESSED",
+        "rationale": "The evaluated model does not mention the right to lodge a complaint or any specific supervisory authority in its justification or cited clauses.",
+        "human": {
+          "override": false,
+          "final_label": "NOT_ADDRESSED",
+          "note": ""
+        }
+      }
+    ],
+    "ras_principle_score": 0.6
+  },
+  "jjs": {
+    "traceability": 5,
+    "principle_correctness": 5,
+    "calibration": 5,
+    "no_overreach": 5,
+    "jjs_principle_score": 5.0,
+    "brief_notes": "* Excellent traceability between the cited sections (1, 3, 6) and the final rating.\n* Correctly interprets the 'demonstrability' requirement of Article 5(2).\n* Appropriately distinguishes between documented intentions and concrete evidentiary artifacts.\n* Balanced assessment that acknowledges both organizational transparency and missing accountability signals."
+  }
+}
