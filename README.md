@@ -29,42 +29,6 @@ This study evaluates the models across three key dimensions:
 2.  **Justification Quality Score (JJS)**: Evaluates reasoning on four pillars: traceability, principle correctness, calibration, and no overreach.
 3.  **Prompt Stability (Flip Rates)**: Measures how sensitive the model is to prompting variations.
 
-## Getting Started
-
-Follow these steps to set up the environment and explore the analysis scripts:
-
-1.  **Clone the Repository**:
-    ```bash
-    git clone https://github.com/maederhkh/prompt2GDPR.git
-    cd prompt2GDPR
-    ```
-
-2.  **Set Up the Environment**:
-    ```bash
-    python -m venv .venv
-    # Windows
-    .venv\Scripts\activate
-    # macOS/Linux
-    source .venv/bin/activate
-    ```
-
-3.  **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Run Analysis**:
-    Navigate to the `scripts` directory to run the analysis tools.
-    To recalculate flip rates:
-    ```bash
-    cd scripts
-    python compute_flip_rates.py
-    ```
-    To analyze raw outputs and generate an Excel report:
-    ```bash
-    cd scripts
-    python analyze_gdpr_outputs.py
-    ```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
