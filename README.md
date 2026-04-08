@@ -1,4 +1,4 @@
-# Assessing Privacy Policy Compliance with GDPR Article 5 Using Large Language Models: The Role of Prompt Design
+# Assessing Privacy Policy Compliance with GDPR Article 5 Using Large Language Models
 
 This repository contains the appendices, experimental outputs, and analysis scripts for the master's thesis: **"Assessing Privacy Policy Compliance with GDPR Article 5 Using Large Language Models: The Role of Prompt Design"**.
 
