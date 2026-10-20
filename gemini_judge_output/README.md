@@ -1,25 +1,38 @@
-# Gemini Judge (LLM-as-Judge) Evaluation Outputs
+# Gemini Judge (LLM-as-Judge) Outputs
 
-This directory contains the structured evaluation data generated using **Gemini** as an automated judge (LLM-as-judge). These outputs correspond to **Metric 1** of the thesis evaluation framework: **Rubric Alignment (RAS)** and **Justification Quality (JJS)**.
+This directory contains the evaluations produced by **Gemini 3 Flash** (thinking mode) acting as judge, on
+25–27 February 2026, for each of the 12 runs in [`main_outputs/`](../main_outputs/README.md). The judge prompt is
+[`prompts/LLM_as_judge.md`](../prompts/LLM_as_judge.md).
 
-## Overview
+- **RAS (rubric alignment):** for each principle, the judge labels each of the five expert rubric questions as
+  `ENTAILS`, `NOT_ADDRESSED` or `CONTRADICTS` against the model's justification.
+- **JJS (justification quality):** for each principle, the judge scores traceability, principle correctness,
+  calibration and no overreach, each 1–5.
 
-The purpose of these evaluations is to assess the quality and legal alignment of the compliance justifications produced by the primary models (GPT-5.2 and Grok). 
+## Directory structure
 
-- **Rubric Alignment Score (RAS)**: Measures how well the model's reasoning matches the "Golden Standard" rubric developed by a legal expert. Gemini compares model justifications against five specific compliance questions per GDPR principle.
-- **Justification Quality Score (JJS)**: Evaluates the model's reasoning on four dimensions: traceability (linking to policy clauses), principle correctness, calibration (handling uncertainty), and no overreach.
+Files mirror [`main_outputs/`](../main_outputs/README.md): `gpt5.2/` and `grok/`, each with `zero_shot/` and
+`few_shot/`. GPT-5.2's extended thinking runs (ZS-Ext, FS3-Ext) are named `3rd_output_thinking_extended.json`;
+Grok's expert-mode runs are named `3rd_output_expert.json`. The mapping to the paper's condition names (ZS, ZS-Ext,
+FS1, FS2, FS3, FS3-Ext) is in the [Terminology mapping](../README.md#terminology-mapping).
 
-## Directory Structure
+## Fields
 
-The outputs are organized by the primary model being evaluated:
+Each file is a list with one entry per principle:
+- `judge_ras.bullets[]`: one item per rubric question, with the judge's `label` and `rationale`, and a `human` block
+  holding the author's review (`override`, `final_label`, `note`)
+- `jjs`: the four dimension scores, `jjs_principle_score` and `brief_notes`
 
-- **`gpt5.2/`**: Evaluations of GPT-5.2's compliance assessments.
-  - **`zero_shot/`**: Results for baseline and structured zero-shot prompt versions.
-  - **`few_shot/`**: Results for 1st, 2nd, and 3rd few-shot prompt versions, including extended thinking modes.
-- **`grok/`**: Evaluations of Grok's compliance assessments.
-  - **`zero_shot/`**: Results for baseline and structured zero-shot prompt versions.
-  - **`few_shot/`**: Results for 1st, 2nd, and 3rd few-shot prompt versions, including expert mode runs.
+## Human correction
 
-## Methodology Note
+The author reviewed all 420 RAS judgements (12 runs × 7 principles × 5 questions) and corrected 37 of them (8.8%);
+see [`docs/evaluation_protocol.md`](../docs/evaluation_protocol.md#6-judge-validation).
 
-As discussed in the thesis (**Section 3.5.2**), while Gemini serves as an efficient automated evaluator, its judgments were subjected to a manual **Judge Failure Probe (JFB)**. This identified cases where the judge was influenced by surface-level lexical similarities rather than substantive legal reasoning. The final scores reported in the thesis results include manual corrections to ensure reliability.
+These files are kept as produced, with the author's review added in the `human` blocks. Two fields should not be
+used as reported values:
+- `ras_principle_score` was computed by the judge from its own labels, i.e. **before** human correction. Reported
+  RAS uses `human.final_label`.
+- `jjs_principle_score` is the judge's own rounding to one decimal (e.g. 4.8 for 4.75). Reported JJS is the exact
+  mean of the four dimension scores, which is always a quarter value.
+
+`scripts/compute_paper_metrics.py` recomputes both from the fields above.

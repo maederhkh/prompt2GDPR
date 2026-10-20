@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper below. The arXiv identifier will be added once available."
+title: "prompt2GDPR: materials for Evaluating Reasoning, Grounding, and Stability in LLM-Based GDPR Compliance Assessment"
+type: dataset
+authors:
+  - family-names: Rahmanikhalili
+    given-names: Maede
+    affiliation: University of Bologna
+repository-code: "https://github.com/maederhkh/prompt2GDPR"
+license: MIT
+keywords:
+  - GDPR
+  - privacy policy
+  - large language models
+  - legal compliance
+  - LLM-as-judge
+preferred-citation:
+  type: article
+  title: "Evaluating Reasoning, Grounding, and Stability in LLM-Based GDPR Compliance Assessment"
+  authors:
+    - family-names: Rahmanikhalili
+      given-names: Maede
+      affiliation: University of Bologna
+  year: 2026
+  notes: "arXiv preprint; identifier to be added"
