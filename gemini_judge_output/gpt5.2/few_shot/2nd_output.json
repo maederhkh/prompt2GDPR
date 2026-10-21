@@ -180,7 +180,7 @@
           "label": "ENTAILS",
           "rationale": "The model explicitly identifies 'optional fields' as one of the minimization controls present in the policy.",
           "human": {
-            "override": false,
+            "override": true,
             "final_label": "NOT_ADDRESSED",
             "note": " GPT5 mention nothing about the consequences of not providing some data"
           }

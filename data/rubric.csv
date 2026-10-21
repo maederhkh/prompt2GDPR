@@ -1,0 +1,36 @@
+principle_id,principle,question_no,question,expert_score,principle_total,reference_label
+1,"Lawfulness, fairness and transparency",1,Identity & roles: Does it clearly name the controller (and key roles like DPO/contact) and how to reach them?,2,8,Compliant
+1,"Lawfulness, fairness and transparency",2,"Lawfulness hook: Does it state why processing is lawful (e.g., consent/contract/legal obligation/legitimate interest), at least at a high level?",2,8,Compliant
+1,"Lawfulness, fairness and transparency",3,"Clear purposes: Does it explain what data is used for in clear, plain terms (not just generic “improve services”)?",2,8,Compliant
+1,"Lawfulness, fairness and transparency",4,"Transparency quality: Is the information easy to find and easy to understand (clear language, structured sections, no hidden key points)?",1,8,Compliant
+1,"Lawfulness, fairness and transparency",5,Fairness expectations: Does it avoid “surprise” processing (or clearly warns about unusual processing) so users can reasonably expect what happens to their data?,1,8,Compliant
+2,Purpose limitation,1,"Specified & explicit purposes: Are purposes listed in a specific way (separate purposes, not one vague bucket)?",2,9,Compliant
+2,Purpose limitation,2,Purpose at collection: Does it indicate purposes are determined at the time of collection (or at least before use)?,2,9,Compliant
+2,Purpose limitation,3,No “unlimited purpose” language: Does it avoid wording that allows use for undefined/unlimited future purposes?,2,9,Compliant
+2,Purpose limitation,4,"Further processing rules: If it mentions re-use (analytics, research, marketing, “improvement”), does it explain conditions/limits (e.g., consent, legal basis, compatibility, safeguards)?",2,9,Compliant
+2,Purpose limitation,5,Compatibility logic: Does it explain how new purposes are linked to the original ones (instead of “we may use your data for other purposes”)?,1,9,Compliant
+3,Data minimisation,1,Data categories listed: Does it say what categories of personal data it collects/uses (not just “information you provide”)?,2,8,Compliant
+3,Data minimisation,2,Link data → purpose: Does it connect data categories to purposes (so readers see why each type is needed)?,2,8,Compliant
+3,Data minimisation,3,“Only necessary” commitment: Does it state it collects/uses only what is necessary (not excessive) for those purposes?,1,8,Compliant
+3,Data minimisation,4,Avoids disproportionate data: Does it avoid asking for overly sensitive/excessive data unless clearly justified?,1,8,Compliant
+3,Data minimisation,5,"Alternative/optional data: Does it distinguish required vs optional data (and explain “if you don’t provide X, service Y won’t work”)?",2,8,Compliant
+4,Accuracy,1,Right to rectification: Does it clearly tell users they can correct/update inaccurate data (and how)?,2,7,Partially compliant
+4,Accuracy,2,"Update mechanism: Does it describe a practical way to keep data up to date (account settings, contact form, etc.)?",2,7,Partially compliant
+4,Accuracy,3,Correction without delay (commitment): Does it commit to fixing/deleting inaccurate data within a reasonable timeframe (or “without undue delay” wording)?,2,7,Partially compliant
+4,Accuracy,4,"Source clarity: If data comes from third parties, does it explain that and how accuracy is handled?",1,7,Partially compliant
+4,Accuracy,5,Proactive steps: article 5(1)(d) talks about “every reasonable steps” and recital 39 clearly state this too so we can say that accuracy separate into 2 part: reactive steps which is based on data subjects’ request for updating or deleting inaccurate data and proactive steps which completely is about controller responsibility about review and take reasonable steps for keeping update inaccurate data even without data subjects’ requests and there I s no signal about proactive steps in this policy,0,7,Partially compliant
+5,Storage limitation,1,Retention periods: Does it give specific retention times or clear criteria per data type/purpose (not just “as long as necessary”)?,1,8,Compliant
+5,Storage limitation,2,Deletion/review process: Does it mention time limits for deletion or periodic review of whether storage is still needed?,1,8,Compliant
+5,Storage limitation,3,"Identifiers minimized over time: Does it mention deletion, anonymization, or aggregation when identification is no longer needed?",2,8,Compliant
+5,Storage limitation,4,"Exceptions explained: If it keeps data longer (e.g., legal claims, archiving/research/statistics), does it explain the reason and safeguards?",2,8,Compliant
+5,Storage limitation,5,User-facing clarity: Is retention info easy to find and understandable (not buried in legal language)?,2,8,Compliant
+6,Integrity and confidentiality,1,"Security measures described: Does it describe security at least at a high level (technical/organizational measures), not just “we take security seriously”?",2,9,Compliant
+6,Integrity and confidentiality,2,Threat coverage: Does it mention protection against unauthorized access/unlawful processing and accidental loss/destruction/damage?,2,9,Compliant
+6,Integrity and confidentiality,3,"Access controls & governance: Does it mention access limitation (who can access data, least privilege, training/policies) even briefly?",2,9,Compliant
+6,Integrity and confidentiality,4,Breach handling: Does it mention breach response/notification in any form (even if not detailed)?,1,9,Compliant
+6,Integrity and confidentiality,5,"Third parties/processors: If it uses vendors, does it say they must apply appropriate security measures too?",2,9,Compliant
+7,Accountability,1,Responsibility stated: Does the policy implicitly/explicitly indicate the controller is responsible for GDPR compliance and user rights handling?,2,7,Partially compliant
+7,Accountability,2,"Demonstration tools (signals): Does it mention any accountability mechanisms (records, policies, audits, DPIA, privacy-by-design, governance) at least as commitments?",0,7,Partially compliant
+7,Accountability,3,Roles & contacts: Is there a clear contact/DPO channel for privacy questions/complaints?,2,7,Partially compliant
+7,Accountability,4,User rights process: Does it clearly explain how to exercise rights + expected response steps/timeframes?,1,7,Partially compliant
+7,Accountability,5,Oversight & redress: Does it mention the supervisory authority/right to lodge a complaint (or equivalent redress path)?,2,7,Partially compliant
