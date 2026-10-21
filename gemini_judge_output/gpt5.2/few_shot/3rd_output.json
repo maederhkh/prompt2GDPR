@@ -182,7 +182,7 @@
           "label": "ENTAILS",
           "rationale": "The evaluated output explicitly highlights the presence of 'optional fields' as a positive factor for data minimization.",
           "human": {
-            "override": false,
+            "override": true,
             "final_label": "NOT_ADDRESSED",
             "note": "model didn't mention anything about consequences of not providing mandatory data"
           }

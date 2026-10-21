@@ -109,11 +109,11 @@ judgement carries a `human` block with `override`, `final_label` and `note`.
 | | Count |
 |---|---|
 | Judgements reviewed | 420 |
-| Judge errors corrected | 37 (8.8%) |
+| Judge errors corrected | 39 (9.3%) |
 | on Grok outputs | 22 |
-| on GPT-5.2 outputs | 15 |
-| Over-generous (judge said `ENTAILS`) | 34 |
-| `ENTAILS` → `NOT_ADDRESSED` | 30 |
+| on GPT-5.2 outputs | 17 |
+| Over-generous (judge said `ENTAILS`) | 36 |
+| `ENTAILS` → `NOT_ADDRESSED` | 32 |
 | `ENTAILS` → `CONTRADICTS` | 4 |
 | Too strict (`NOT_ADDRESSED` → `ENTAILS`) | 3 |
 

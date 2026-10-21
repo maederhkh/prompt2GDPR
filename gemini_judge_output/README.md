@@ -25,7 +25,7 @@ Each file is a list with one entry per principle:
 
 ## Human correction
 
-The author reviewed all 420 RAS judgements (12 runs × 7 principles × 5 questions) and corrected 37 of them (8.8%);
+The author reviewed all 420 RAS judgements (12 runs × 7 principles × 5 questions) and corrected 39 of them (9.3%);
 see [`docs/evaluation_protocol.md`](../docs/evaluation_protocol.md#6-judge-validation).
 
 These files are kept as produced, with the author's review added in the `human` blocks. Two fields should not be
