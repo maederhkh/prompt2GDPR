@@ -113,8 +113,8 @@ judgement carries a `human` block with `override`, `final_label` and `note`.
 | on Grok outputs | 22 |
 | on GPT-5.2 outputs | 15 |
 | Over-generous (judge said `ENTAILS`) | 34 |
-| `ENTAILS` → `NOT_ADDRESSED` | 31 |
-| `ENTAILS` → `CONTRADICTS` | 3 |
+| `ENTAILS` → `NOT_ADDRESSED` | 30 |
+| `ENTAILS` → `CONTRADICTS` | 4 |
 | Too strict (`NOT_ADDRESSED` → `ENTAILS`) | 3 |
 
 `scripts/compute_paper_metrics.py` recounts these from the judge files.
